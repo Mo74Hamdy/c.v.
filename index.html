@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Hamdy Ay'yad - CV</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* اجعل المحتوى يبدأ من الأعلى */
+            min-height: 100vh; /* لضمان أن المحتوى يمكن أن ينمو عموديًا */
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 40px 20px; /* أضف مسافة حول المحتوى */
+            box-sizing: border-box; /* لضمان أن padding يُحسب ضمن العرض */
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px; /* مسافة داخلية للمحتوى */
+            box-sizing: border-box; /* تأكد من أن المسافة الداخلية تُحسب ضمن العرض */
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #3498db;
+            font-size: 1.8em;
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 1.4em;
+            margin: 15px 0 5px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .skills, .languages, .hobbies, .programming-languages {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skills button, .programming-languages button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 0.9em;
+        }
+
+        .skills button:hover, .programming-languages button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mohammad Hamdy Ay'yad - IT Engineer</h1>
+
+        <div class="card contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> +965 - 66684355</p>
+            <p><strong>Email:</strong> <a href="mailto:Mo22hamdy@gmail.com">Mo22hamdy@gmail.com</a></p>
+            <p><strong>Address:</strong> Block 2, Musa Bin Nusayr Street, Hawally, Kuwait</p>
+        </div>
+
+        <div class="card personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Date of Birth:</strong> 16.5.1997</p>
+            <p><strong>Nationality:</strong> Egyptian</p>
+            <p><strong>Country of Residence:</strong> Kuwait</p>
+            <p><strong>Type of Residence:</strong> Transferable</p>
+            <p><strong>Driving License:</strong> Yes</p>
+            <p><strong>Marital Status:</strong> Single</p>
+        </div>
+
+        <div class="card">
+            <h2>Objective</h2>
+            <p>Detail-oriented and highly skilled IT professional with extensive experience in data analysis and IT support. Proven ability to lead teams, develop systems, and enhance productivity through innovative solutions.</p>
+        </div>
+
+        <div class="card">
+            <h2>Work Experience</h2>
+            <h3>System Developer & Trainer in IT Department | Farwaniya Hospital - "Bishara Group" Kuwait | January 2023</h3>
+            <ul>
+                <li>Trained employees on new systems.</li>
+                <li>Improved technical knowledge level among employees by 30%.</li>
+            </ul>
+            <h3>HR Department Developer | Farwaniya Hospital - "Bishara Group" Kuwait | May 2021 - December 2022</h3>
+            <ul>
+                <li>Developed and improved HR systems.</li>
+                <li>Collected data for all hospital employees (doctors, nurses, technicians, and administrators).</li>
+                <li>Transitioned the department's work to a paperless system.</li>
+                <li>Programmed a simple and user-friendly system for the department.</li>
+                <li>Increased department efficiency by 50%.</li>
+            </ul>
+            <h3>Team Leader | Jaber Al-Ahmad Al-Sabah Hospital - "Bishara Group" Kuwait | 2020 - May 2021</h3>
+            <ul>
+                <li>Led the technical support team and assigned tasks.</li>
+                <li>Enhanced team efficiency and increased productivity by 20%.</li>
+            </ul>
+            <h3>Technical Support | Jaber Al-Ahmad Al-Sabah Hospital - "Bishara Group" Kuwait | 2019 - 2020</h3>
+            <ul>
+                <li>Provided technical support to staff and users.</li>
+                <li>Successfully resolved network connectivity issues 95% of the time.</li>
+            </ul>
+            <h3>Data Entry | Jaber Al-Ahmad Al-Sabah Hospital - "Bishara Group" Kuwait | October 2018 - 2019</h3>
+            <ul>
+                <li>Accurately and efficiently entered patient and visitor data.</li>
+                <li>Improved data entry quality and reduced errors by 15%.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Programming Languages</h2>
+            <div class="programming-languages">
+                <button>Python</button>
+                <button>Java</button>
+                <button>SQL</button>
+                <button>Basic Programming</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <button>Microsoft Office</button>
+                <button>Photoshop</button>
+                <button>Camtasia Studio</button>
+                <button>Network Troubleshooting</button>
+                <button>Technical Documentation</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Education</h2>
+            <h3>Bachelor's in Information Technology & Computing (ITC)</h3>
+            <p>Arab Open University - Kuwait Branch | 2015 - 2021</p>
+            <h3>Diploma in Secretarial and Administration</h3>
+            <p>Public Authority for Applied Education and Training (PAAET) Kuwait | 2016 - 2018</p>
+        </div>
+
+        <div class="card">
+            <h2>Skill Highlights</h2>
+            <div class="skills">
+                <button>IT Support</button>
+                <button>Strong Decision-Maker</button>
+                <button>Complex Problem Solver</button>
+                <button>Team Leadership</button>
+                <button>Creative Design</button>
+                <button>IT Troubleshooting</button>
+                <button>Service-Focused</button>
+                <button>End-User Training</button>
+                <button>Data Analysis</button>
+                <button>System Development</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Languages</h2>
+            <div class="languages">
+                <div>Arabic - Native</div>
+                <div>English - Good</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Hobbies</h2>
+            <div class="hobbies">
+                <div>Data Analysis</div>
+                <div>Football Data Analysis</div>
+                <div>Playing Football</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
